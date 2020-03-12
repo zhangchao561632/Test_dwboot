@@ -1,0 +1,259 @@
+{
+  "uid" : "cbdd29ffd41228f9",
+  "name" : "test_login",
+  "fullName" : "test_cases.web_test.test_delRole.TestLogin#test_login",
+  "historyId" : "544e9a55dfc70f17d961220f1573a85a",
+  "time" : {
+    "start" : 1583908834762,
+    "stop" : 1583908837318,
+    "duration" : 2556
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Login_page",
+    "time" : {
+      "start" : 1583908834231,
+      "stop" : 1583908834758,
+      "duration" : 527
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "selenium",
+    "time" : {
+      "start" : 1583908829141,
+      "stop" : 1583908834230,
+      "duration" : 5089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1583908829140,
+      "stop" : 1583908829140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "chrome_options",
+    "time" : {
+      "start" : 1583908829141,
+      "stop" : 1583908829141,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1583908834230,
+      "stop" : 1583908834231,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1583908834231,
+      "stop" : 1583908834231,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1583908829140,
+      "stop" : 1583908829140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9944e892eab2c41",
+      "name" : "log",
+      "source" : "f9944e892eab2c41.txt",
+      "type" : "text/plain",
+      "size" : 131
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "selenium::0",
+    "time" : {
+      "start" : 1583908841017,
+      "stop" : 1583908843111,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "测试正常登录"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.web_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_delRole"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-Q73T5I0"
+  }, {
+    "name" : "thread",
+    "value" : "5300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.web_test.test_delRole"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "4540eeeed4b457",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/57/allure/#testresult/4540eeeed4b457",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908687013,
+          "stop" : 1583908689669,
+          "duration" : 2656
+        }
+      }, {
+        "uid" : "b4c451928bf343f4",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/56/allure/#testresult/b4c451928bf343f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908595494,
+          "stop" : 1583908597965,
+          "duration" : 2471
+        }
+      }, {
+        "uid" : "e3e454e4160bae98",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/55/allure/#testresult/e3e454e4160bae98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908499837,
+          "stop" : 1583908502433,
+          "duration" : 2596
+        }
+      }, {
+        "uid" : "70c22e6aafe002d",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/54/allure/#testresult/70c22e6aafe002d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908088494,
+          "stop" : 1583908091049,
+          "duration" : 2555
+        }
+      }, {
+        "uid" : "4b0b18f7e9ebd309",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/53/allure/#testresult/4b0b18f7e9ebd309",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583907796424,
+          "stop" : 1583907799076,
+          "duration" : 2652
+        }
+      } ]
+    },
+    "tags" : [ "p0", "web" ]
+  },
+  "source" : "cbdd29ffd41228f9.json",
+  "parameterValues" : [ ]
+}

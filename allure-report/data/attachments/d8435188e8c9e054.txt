@@ -1,0 +1,9 @@
+INFO     root:pages.py:18 输入登录用户名
+INFO     root:pages.py:23 输入登录密码
+INFO     root:pages.py:28 点击登录
+INFO     root:pages.py:43 点击主菜单
+INFO     root:pages.py:45 点击二级菜单
+INFO     root:pages.py:57 点击添加角色按钮
+INFO     root:pages.py:61 输入角色名称
+INFO     root:pages.py:65 输入备注
+INFO     root:pages.py:69 点击提交按钮

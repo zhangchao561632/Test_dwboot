@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://192.168.1.200:8080/jenkins/",
+  "buildOrder" : 58,
+  "buildName" : "slave_001 #58",
+  "buildUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/58/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/58/allure"
+} ]

@@ -1,0 +1,311 @@
+# 按用例名区分数据
+valid_data_source_id: &valid_id bHRz
+
+test_add_fuel_card_normal:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 00A
+    CardInfo:
+      cardNumber: 3232
+
+test_add_fuel_card_norma2:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 00A
+    CardInfo:
+      cardNumber: 3535
+
+test_add_fuel_card_norma3:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: 23423
+    methodId: 00A
+    CardInfo:
+      cardNumber: 4565787
+
+test_add_fuel_card_norma4:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId:
+    methodId: 00A
+    CardInfo:
+      cardNumber: 4565787
+
+test_bind_fuel_card_normal:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber: 21312312
+    CardInfo:
+      cardNumber: 8754533
+
+test_bind_fuel_card_norma2:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber: 21312312
+    CardInfo:
+      cardNumber: 31545
+
+test_bind_fuel_card_norma3:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber: 21312312
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma4:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber:
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma5:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName:
+      idType: 1
+      idNumber: 2342342
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma6:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId:
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber: 2342342
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma7:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: jiaminqiang3
+      idType:
+      idNumber: 2342342
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma8:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 2131
+    CardUser:
+      userName: jiaminqiang3
+      idType: 1
+      idNumber: 2342342
+    CardInfo:
+      cardNumber: 2121321
+
+test_bind_fuel_card_norma9:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 01A
+    CardUser:
+      userName: zhangchao
+      idType: 1
+      idNumber: 2342342
+    CardInfo:
+      cardNumber: 2121321
+
+test_query_fuel_card_normal:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: get
+  params:
+    dataSourceId: *valid_id
+    userId: 5616650
+    cardNumber: 5612366
+    methodId: 02A
+
+test_query_fuel_card_norma2:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: get
+  params:
+    dataSourceId: *valid_id
+    userId: 4545
+    cardNumber: 245875
+    methodId: 02A
+
+test_query_fuel_card_norma3:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: get
+  params:
+    dataSourceId: *valid_id
+    userId: ''
+    cardNumber: 43242
+    methodId: 02A
+
+test_query_fuel_card_norma4:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: get
+  params:
+    dataSourceId: *valid_id
+    userId: 3424
+    cardNumber: ''
+    methodId: 02A
+
+test_query_fuel_card_norma5:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: get
+  params:
+    dataSourceId: *valid_id
+    userId: 2423432
+    cardNumber: 245875
+    methodId: ''
+
+test_consume_fuel_card_normal:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 04A
+    CardUser:
+      userId: 5616650
+    CardInfo:
+      cardNumber: 5612366
+      cardBalance: 50
+
+test_consume_fuel_card_norma2:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 04A
+    CardUser:
+      userId: 561554
+    CardInfo:
+      cardNumber: 5612366
+      cardBalance: 50
+
+test_consume_fuel_card_norma3:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 04A
+    CardUser:
+      userId: 'www'
+    CardInfo:
+      cardNumber: 5612366
+      cardBalance: 50
+
+test_consume_fuel_card_norma4:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 04A
+    CardUser:
+      userId: 5616650
+    CardInfo:
+      cardNumber: 5612366
+      cardBalance: -5
+
+test_consume_fuel_card_norma5:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 04A
+    CardUser:
+      userId: 5616650
+    CardInfo:
+      cardNumber: 5612366
+      cardBalance: 50
+
+test_invest_fuel_card_normal:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 03A
+    CardInfo:
+      cardNumber: 245875
+      cardBalance: 40
+
+
+test_invest_fuel_card_norma2:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 03A
+    CardInfo:
+      cardNumber: 34234
+      cardBalance: 40
+
+test_invest_fuel_card_norma3:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 03A
+    CardInfo:
+      cardNumber: 34234
+      cardBalance:
+
+test_invest_fuel_card_norma4:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 03A
+    CardInfo:
+      cardNumber: 34234
+      cardBalance: -1
+
+test_invest_fuel_card_norma5:
+  url: http://115.28.108.130:8080/gasStation/process
+  method: post
+  json:
+    dataSourceId: *valid_id
+    methodId: 03A
+    CardInfo:
+      cardNumber: 34234
+      cardBalance: www

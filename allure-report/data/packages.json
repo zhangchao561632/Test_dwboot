@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_cases.web_test.test_delRole",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "cbdd29ffd41228f9",
+      "parentUid" : "4809b3623c46bad5c9ef77a8c089f523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583908834762,
+        "stop" : 1583908837318,
+        "duration" : 2556
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_role",
+      "uid" : "d7ef44d911cae95e",
+      "parentUid" : "4809b3623c46bad5c9ef77a8c089f523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583908839890,
+        "stop" : 1583908841013,
+        "duration" : 1123
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_cases.web_test.test_delRole"
+  } ]
+}

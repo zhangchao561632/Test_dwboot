@@ -1,0 +1,3 @@
+INFO     root:pages.py:18 输入登录用户名
+INFO     root:pages.py:23 输入登录密码
+INFO     root:pages.py:28 点击登录

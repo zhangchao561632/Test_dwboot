@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_cases.web_test",
+    "children" : [ {
+      "name" : "test_delRole",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "cbdd29ffd41228f9",
+          "parentUid" : "036b4e8a03ca7a13ec073d4604d0d2bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583908834762,
+            "stop" : 1583908837318,
+            "duration" : 2556
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "036b4e8a03ca7a13ec073d4604d0d2bf"
+      }, {
+        "name" : "TestRole",
+        "children" : [ {
+          "name" : "test_add_role",
+          "uid" : "d7ef44d911cae95e",
+          "parentUid" : "92e94a827ff414f0e12e490905bde17e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583908839890,
+            "stop" : 1583908841013,
+            "duration" : 1123
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "92e94a827ff414f0e12e490905bde17e"
+      } ],
+      "uid" : "7df2cb6e2c9c0740a8dfd6bac2f17bb6"
+    } ],
+    "uid" : "748e0f560bb6127004f6c0c107a3e776"
+  } ]
+}

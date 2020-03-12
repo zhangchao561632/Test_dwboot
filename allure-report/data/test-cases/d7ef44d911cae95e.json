@@ -1,0 +1,319 @@
+{
+  "uid" : "d7ef44d911cae95e",
+  "name" : "test_add_role",
+  "fullName" : "test_cases.web_test.test_delRole.TestRole#test_add_role",
+  "historyId" : "19e7d0a0197e25f104f8415f7b47278b",
+  "time" : {
+    "start" : 1583908839890,
+    "stop" : 1583908841013,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Login_page",
+    "time" : {
+      "start" : 1583908837411,
+      "stop" : 1583908837469,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "selenium",
+    "time" : {
+      "start" : 1583908829141,
+      "stop" : 1583908834230,
+      "duration" : 5089
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1583908829140,
+      "stop" : 1583908829140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "add_role_page",
+    "time" : {
+      "start" : 1583908839649,
+      "stop" : 1583908839889,
+      "duration" : 240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "chrome_options",
+    "time" : {
+      "start" : 1583908829141,
+      "stop" : 1583908829141,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1583908834230,
+      "stop" : 1583908834231,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "menu_page",
+    "time" : {
+      "start" : 1583908837469,
+      "stop" : 1583908839649,
+      "duration" : 2180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1583908837410,
+      "stop" : 1583908837411,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1583908829140,
+      "stop" : 1583908829140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db",
+    "time" : {
+      "start" : 1583908837323,
+      "stop" : 1583908837410,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8435188e8c9e054",
+      "name" : "log",
+      "source" : "d8435188e8c9e054.txt",
+      "type" : "text/plain",
+      "size" : 398
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "selenium::0",
+    "time" : {
+      "start" : 1583908841017,
+      "stop" : 1583908843111,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "db::0",
+    "time" : {
+      "start" : 1583908843113,
+      "stop" : 1583908843115,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "角色管理模块"
+  }, {
+    "name" : "story",
+    "value" : "测试添加角色"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "tag",
+    "value" : "p0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases.web_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_delRole"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRole"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-Q73T5I0"
+  }, {
+    "name" : "thread",
+    "value" : "5300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.web_test.test_delRole"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "40931735acd1c562",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/57/allure/#testresult/40931735acd1c562",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908692680,
+          "stop" : 1583908693819,
+          "duration" : 1139
+        }
+      }, {
+        "uid" : "a499e7ad391b8df",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/56/allure/#testresult/a499e7ad391b8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908600754,
+          "stop" : 1583908602340,
+          "duration" : 1586
+        }
+      }, {
+        "uid" : "683c78329019081e",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/55/allure/#testresult/683c78329019081e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908505051,
+          "stop" : 1583908506217,
+          "duration" : 1166
+        }
+      }, {
+        "uid" : "97be99af4d308fb",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/54/allure/#testresult/97be99af4d308fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583908093682,
+          "stop" : 1583908094829,
+          "duration" : 1147
+        }
+      }, {
+        "uid" : "6ad48cc10cfd7ab2",
+        "reportUrl" : "http://192.168.1.200:8080/jenkins/job/slave_001/53/allure/#testresult/6ad48cc10cfd7ab2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583907802723,
+          "stop" : 1583907803857,
+          "duration" : 1134
+        }
+      } ]
+    },
+    "tags" : [ "p0", "web" ]
+  },
+  "source" : "d7ef44d911cae95e.json",
+  "parameterValues" : [ ]
+}
